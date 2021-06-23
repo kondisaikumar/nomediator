@@ -11,9 +11,8 @@
 .irs-line-right,
 .irs-diapason,
 .irs-slider {
-    background: url(../../assets/img/sprite-skin-nice.png) repeat-x;
+    background: url() repeat-x;
 }
-
 .irs {
     height: 40px;
 }

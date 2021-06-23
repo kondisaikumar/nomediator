@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css";
+@import "./assets/fonts/icon-7-stroke/css/helper.css";
+@import "./assets/bootstrap/css/bootstrap.min.css";
+@import "./assets/css/animate.css";
+@import "./assets/css/bootstrap-select.min.css";
+@import "./assets/css/bootstrap-theme.css";
+@import "./assets/css/font-awesome.min.css";
+@import "./assets/css/fontello.css";
+@import "./assets/css/icheck.min_all.css";
+@import "./assets/css/ion.rangeSlider.css";
+@import "./assets/css/ion.rangeSlider.skinFlat.css";
+@import "./assets/css/ion.rangeSlider.skinNice.css";
+@import "./assets/css/jquery.slitslider.css";
+@import "./assets/css/lightslider.min.css";
+@import "./assets/css/normalize.css";
+@import "./assets/css/owl.carousel.css";
+@import "./assets/css/owl.theme.css";
+@import "./assets/css/owl.transitions.css";
+@import "./assets/css/price-range.css";
+@import "./assets/css/responsive.css";
+@import "./assets/css/slider.css";
+@import "./assets/css/style.css";
+@import "./assets/css/styleNoJS.css";
+@import "./assets/css/wizard.css";
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@include igx-core();

@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,6 +21,7 @@ import { UserPropertiesComponent } from './user-properties/user-properties.compo
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -42,9 +44,11 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     ContactUsComponent,
     ChangePasswordComponent
   ],
-  imports: [
+  imports: [ 
+    FormsModule,  
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
