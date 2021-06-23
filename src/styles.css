@@ -27,4 +27,7 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-@include igx-core();
+.mat-calendar-body-selected {
+    background-color: #FFA500 !important;
+    color: #fff;
+}

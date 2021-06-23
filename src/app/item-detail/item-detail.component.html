@@ -51,7 +51,31 @@
                                 <h1 class="property-title pull-left">Villa in Coral Gables</h1>
                                 <span class="property-price pull-right">$825,000</span>
                             </div>
+                            <div class="single-property-header"> 
+                                <div class="row">  
+                                    <div class="col-md-6">  
+                            <mat-form-field appearance="legacy">
 
+                                <mat-label>Choose Date Range</mat-label>
+                              
+                                <mat-date-range-input [rangePicker]="picker" [formGroup]="dateRange">
+                                  <input matStartDate formControlName="start" placeholder="Start Date">
+                                  <input matEndDate formControlName="end" placeholder="End Date">
+                                </mat-date-range-input>
+                              
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                              
+                                <mat-date-range-picker #picker></mat-date-range-picker>
+                              
+                              </mat-form-field>
+                               </div>
+                                    <div class="col-md-6">  
+                              <input class="button btn largesearch-btn" style="background:#FFA500;font-size: 16px;
+                              border: 1px solid #EAE9E9;
+                              width: 100%;
+                              height: 40px;
+                              color: #FFF;" value="Book Now" type="submit"></div>
+</div>                    </div>
                             <div class="property-meta entry-meta clearfix ">   
 
                                 <div class="col-xs-3 col-sm-3 col-md-3 p-b-15">
@@ -492,4 +516,3 @@
 
             </div>
         </div>
-        
