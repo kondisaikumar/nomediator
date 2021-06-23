@@ -31,3 +31,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: #FFA500 !important;
     color: #fff;
 }
+.mat-icon-button{
+    color: #FFA500 !important;
+}
