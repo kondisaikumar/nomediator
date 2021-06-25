@@ -1,4 +1,4 @@
-/* @import "./assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css";
+@import "./assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css";
 @import "./assets/fonts/icon-7-stroke/css/helper.css";
 @import "./assets/css/animate.css";
 @import "./assets/css/bootstrap-theme.css";
@@ -21,7 +21,7 @@
 @import "./assets/css/styleNoJS.css";
 @import "./assets/css/wizard.css";
 
- */
+
 /* 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
