@@ -23,23 +23,6 @@
         <div id="status">&nbsp;</div>
     </div>
     <app-root></app-root>
-    <script>
-        $(document).ready(function () {
-
-            $('#image-gallery').lightSlider({
-                gallery: true,
-                item: 1,
-                thumbItem: 9,
-                slideMargin: 0,
-                speed: 500,
-                auto: true,
-                loop: true,
-                onSliderLoad: function () {
-                    $('#image-gallery').removeClass('cS-hidden');
-                }
-            });
-        });
-    </script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <script src="./assets/js/gmaps.js"></script>
     <script src="./assets/js/gmaps.init.js"></script>
