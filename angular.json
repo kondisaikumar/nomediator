@@ -42,8 +42,8 @@
               "./node_modules/assets/css/style.css",
               "./node_modules/assets/css/styleNoJS.css",
               "./node_modules/assets/css/wizard.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./node_modules/bootstrap-select/dist/css/bootstrap-select.min.css",
+              "./node_modules/assets/bootstrap/css/bootstrap.min.css",
+              "./node_modules/assets/bootstrap-select/css/bootstrap-select.min.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
@@ -111,8 +111,6 @@
               "./node_modules/assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css",
               "./node_modules/assets/fonts/icon-7-stroke/css/helper.css",
               "./node_modules/assets/css/animate.css",
-              "./node_modules/assets/css/bootstrap-min.css",
-              "./node_modules/assets/css/bootstrap-select.css",
               "./node_modules/assets/css/bootstrap-theme.css",
               "./node_modules/assets/css/font-awesome.min.css",
               "./node_modules/assets/css/fontello.css",
@@ -131,6 +129,8 @@
               "./node_modules/assets/css/style.css",
               "./node_modules/assets/css/styleNoJS.css",
               "./node_modules/assets/css/wizard.css",
+              "./node_modules/assets/bootstrap/css/bootstrap.min.css",
+              "./node_modules/assets/bootstrap-select/css/bootstrap-select.min.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
